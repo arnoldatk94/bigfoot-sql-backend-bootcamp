@@ -1,4 +1,5 @@
 const path = require("path");
+// purpose so that when running sequelize commands, where to read info
 
 module.exports = {
   config: path.resolve("config", "database.js"),
